@@ -61,6 +61,11 @@ export default class KeyboardInput extends Component {
         onPress: () => this.showKeyboardView('AnotherKeyboardView', 'SECOND - 2 (passed prop)'),
       },
       {
+        text: 'Camera Roll',
+        testID: 'camera-roll',
+        onPress: () => this.showKeyboardView('CameraRollView', 'Camera Roll Component'),
+      },
+      {
         text: 'reset',
         testID: 'reset',
         onPress: () => this.resetKeyboardView(),
